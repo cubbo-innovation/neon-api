@@ -1,0 +1,16 @@
+{
+  "name": "cubbo-innovation/neon-api",
+  "keywords": ["banco-neon"],
+  "description": "Integração com API do Banco Neon",
+  "require": {
+    "guzzlehttp/guzzle": "6.2.*",
+    "phpseclib/phpseclib": "~2.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Neon\\PjApi\\": "src/PjApi/"
+    }
+  }
+}
