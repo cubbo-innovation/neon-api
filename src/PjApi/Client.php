@@ -8,7 +8,7 @@ use GuzzleHttp\Psr7\Response;
 class Client
 {
 
-    protected $baseUri = 'https://apiparceiros.banconeon.com.br';
+    protected $baseUri = 'https://apiparceiros.banconeo.com.br';
 
     protected $isDev = true;
 
@@ -26,7 +26,7 @@ class Client
         $this->isDev = $isDevelopment;
 
         if ($this->isDev) {
-            $this->baseUri = 'https://servicosdev.neonhomol.com.br';
+            $this->baseUri = 'https://servicosdev.neohomol.com.br';
         }
 
         $this->httpClient = $httpClient;
